@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uzaktan Kontrol Paneli</title>
+</head>
+<body>
+  <h2>Kontrol Paneli</h2>
+  <form method="POST" action="upload.php">
+    <label>Yeni Şifre:</label>
+    <input type="text" name="password"><br><br>
+
+    <label>Müzik:</label>
+    <select name="music">
+      <option value="play">Çal</option>
+      <option value="stop">Durdur</option>
+    </select><br><br>
+
+    <label>Komut:</label>
+    <select name="command">
+      <option value="">-</option>
+      <option value="shutdown">Kapat</option>
+    </select><br><br>
+
+    <label>Yeni Arka Plan Resmi (URL):</label>
+    <input type="text" name="image_url"><br><br>
+
+    <button type="submit">GÖNDER</button>
+  </form>
+</body>
+</html>
